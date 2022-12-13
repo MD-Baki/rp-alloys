@@ -12,6 +12,7 @@ Table of Content
     04. Working Team Section
     05. Customer Approach Section
     06. Industry We Serve Section
+    07. Machine & Infra Section
 -----------------------------------------
 */
 
@@ -247,6 +248,66 @@ header a:hover {
 .industry-title {
     color: #9198a0;
     font-size: 25px;
-    padding: 30px 0;
+    padding: 40px 0;
+}
+
+.industry-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding-top: 20px;
+}
+.industry-item {
+    display: flex;
+    column-gap: 15px;
+    align-items: flex-start;
+}
+.industry-item .count {
+    color: rgba(236, 34, 50, 0.5);
+}
+.item-inside {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.item-inside h5 {
+    font-size: 25px;
+}
+.item-inside p {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 5px;
 }
 /* ||Industry We Serve Css End|| */
+
+/* Machine & Infra Css Start */
+#machine {
+    background: url(../images/banner-3.png);
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center;
+    color: var(--secondary-color);
+}
+.machine-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#machine h2 {
+    font-size: 70px;
+    padding: 30px 0;
+}
+.machine-item-container {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    align-items: flex-end;
+}
+.machine-item h4 {
+    font-size: 40px;
+    padding: 10px 0;
+}
+.machine-item p {
+    font-size: 20px;
+}
+/* ||Machine & Infra Css End|| */

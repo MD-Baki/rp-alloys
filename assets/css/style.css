@@ -155,7 +155,6 @@ header a:hover {
 }
 .work-pars .pars-item h4 {
     font-size: 100px;
-    font-weight: var(--bold);
 }
 .work-pars .pars-item h4 span {
     color: var(--focus-color);
@@ -172,5 +171,30 @@ header a:hover {
     height: 800px;
     background-size: cover;
     background-position: center;
+}
+#approach .heading {
+    padding: 100px 0;
+}
+
+.approach-container {
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+}
+.approach-item {
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+}
+.approach-item img {
+    width: 445px;
+    height: 493px;
+}
+.approach-item h4 {
+    font-size: 30px;
+    line-height: 35px;
+    padding: 40px 0px 40px 50px;
 }
 /* ||Customer Approach Css End|| */

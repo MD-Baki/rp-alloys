@@ -10,7 +10,8 @@ Table of Content
     02. Header Section
     03. Banner Section
     04. Working Team Section
-    05. Customer Approach
+    05. Customer Approach Section
+    06. Industry We Serve Section
 -----------------------------------------
 */
 
@@ -71,7 +72,7 @@ body {
     margin: auto;
 }
 .heading-container {
-    width: 628px;
+    width: 1236px;
     margin: auto;
 }
 .text-container {
@@ -198,3 +199,54 @@ header a:hover {
     padding: 40px 0px 40px 50px;
 }
 /* ||Customer Approach Css End|| */
+
+/* Industry We Serve Css Start */
+#industry {
+    padding-top: 450px;
+    padding-bottom: 100px;
+}
+.industry-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.industry-img {
+    text-align: right;
+}
+#industry .solid-text {
+    position: relative;
+    background-color: var(--secondary-color);
+}
+#industry .solid-text h2 {
+    font-size: 70px;
+}
+.solid-text::after {
+    position: absolute;
+    content: "Industry We Serves";
+    inset: 0;
+    background-color: var(--secondary-color);
+    font-size: 70px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px var(--primary-color);
+    color: transparent;
+    z-index: -1;
+    margin-top: -55px;
+}
+.solid-text::before {
+    position: absolute;
+    content: "Industry We Serves";
+    inset: 0;
+    background-color: var(--secondary-color);
+    font-size: 70px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px var(--primary-color);
+    color: transparent;
+    z-index: -1;
+    margin-top: -110px;
+}
+.industry-title {
+    color: #9198a0;
+    font-size: 25px;
+    padding: 30px 0;
+}
+/* ||Industry We Serve Css End|| */

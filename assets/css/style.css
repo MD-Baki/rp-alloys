@@ -1,0 +1,176 @@
+/*
+-----------------------------------------
+Theme Name: RP Alloys
+Author Name: Addictive Media
+Version: 1.0.
+-----------------------------------------
+Table of Content
+-----------------------------------------
+    01. Common Css
+    02. Header Section
+    03. Banner Section
+    04. Working Team Section
+    05. Customer Approach
+-----------------------------------------
+*/
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* Common Css Start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 1600px;
+    margin: auto;
+    color: var(--primary-color);
+}
+:root {
+    /*color*/
+    --primary-color: #222222;
+    --secondary-color: #fff;
+    --focus-color: #ec2232;
+}
+.font-bold {
+    font-weight: 700;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-regular {
+    font-weight: 400;
+}
+
+.banner-container {
+    width: 1550px;
+    margin: auto;
+}
+.heading-container {
+    width: 628px;
+    margin: auto;
+}
+.text-container {
+    width: 1136px;
+    margin: auto;
+}
+
+.heading h6 {
+    font-size: 16px;
+    color: var(--focus-color);
+}
+.heading h3 {
+    font-size: 70px;
+    color: var(--primary-color);
+    line-height: 80px;
+    padding-top: 8px;
+}
+/* ||Common Css End|| */
+
+/* Header Css Start */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+}
+header img {
+    width: 138px;
+    height: 22px;
+}
+header a {
+    color: var(--primary-color);
+}
+header a:hover {
+    text-decoration-line: underline;
+}
+/* ||Header Css End|| */
+
+/* Banner Css Start */
+#banner {
+    background: url(../images/banner.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+#banner h1 {
+    color: var(--secondary-color);
+    font-size: 100px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+/* ||Banner Css End|| */
+
+/* Working Team Css Start */
+#work-team {
+    padding: 100px 0;
+}
+#work-team .work-doc {
+    display: flex;
+    justify-content: right;
+}
+#work-team .work-doc p {
+    width: 428px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+.work-pars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 80px;
+}
+.work-pars .pars-item {
+    text-align: center;
+}
+.work-pars .center {
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+}
+.work-pars .pars-item h4 {
+    font-size: 100px;
+    font-weight: var(--bold);
+}
+.work-pars .pars-item h4 span {
+    color: var(--focus-color);
+}
+.work-pars .pars-item p {
+    font-weight: var(--regular);
+    font-size: 30px;
+}
+/* ||Working Team Css End|| */
+
+/* Customer Approach Css Start */
+#approach {
+    background: url(../images/banner-2.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+/* ||Customer Approach Css End|| */

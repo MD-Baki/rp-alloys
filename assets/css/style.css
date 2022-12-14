@@ -1,7 +1,7 @@
 /*
 -----------------------------------------
 Theme Name: RP Alloys
-Author Name: Addictive Media
+Author Name: MD. Abdulla Hale Baki
 Version: 1.0.
 -----------------------------------------
 Table of Content
@@ -13,6 +13,9 @@ Table of Content
     05. Customer Approach Section
     06. Industry We Serve Section
     07. Machine & Infra Section
+    08. The-Industry Section
+    09. Get in touch Section
+    10. Contact Section
 -----------------------------------------
 */
 
@@ -66,6 +69,9 @@ body {
 }
 .font-regular {
     font-weight: 400;
+}
+.font-light {
+    font-weight: 300;
 }
 
 .banner-container {
@@ -311,3 +317,140 @@ header a:hover {
     font-size: 20px;
 }
 /* ||Machine & Infra Css End|| */
+
+/* The Industry Css Start */
+#the-industry {
+    padding: 100px 0;
+}
+#the-industry h2 {
+    color: var(--focus-color);
+    text-align: center;
+}
+.the-industry-content {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+/* ||The Industry Css End|| */
+
+/* Get in touch Css Start */
+#g-t-touch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.left-sec {
+    background-color: #0e3466;
+    padding: 100px 0;
+    padding-left: 150px;
+}
+.left-sec h2 {
+    color: var(--secondary-color);
+    margin-bottom: 50px;
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 55px;
+}
+.left-sec h2::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 140px;
+    background-color: var(--secondary-color);
+    bottom: 0;
+}
+form {
+    display: grid;
+    row-gap: 20px;
+}
+form input,
+form textarea {
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+}
+form .submit {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: var(--focus-color);
+    color: var(--secondary-color);
+    border: 0;
+}
+.right-sec {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+    margin-left: -150px;
+}
+.right-sec .text-sec {
+    width: 30%;
+    padding: 20px;
+}
+.right-sec .map-sec {
+    width: 70%;
+}
+.map-sec iframe {
+    width: 100%;
+    height: 500px;
+}
+.text-sec h4 {
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 7px;
+}
+.text-sec p {
+    font-size: 20px;
+    line-height: 25px;
+}
+.center-text {
+    padding: 30px 0;
+    margin: 30px 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+/* ||Get in touch Css End|| */
+
+/* Contact Css Start */
+#contact {
+    background: #181818;
+    padding: 100px 60px;
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    gap: 40px;
+}
+#contact ul li {
+    display: block;
+}
+.contact-right {
+    text-align: right;
+}
+#contact .contact-left ul li {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 500;
+}
+.contact-center h4 {
+    font-size: 35px;
+    padding-bottom: 8px;
+}
+.contact-center li {
+    font-size: 22px;
+    line-height: 48px;
+}
+.center-flex {
+    display: flex;
+    gap: 30px;
+}
+.contact-right {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+}
+.contact-right .icon .fa-instagram {
+    margin: 0 10px;
+}
+/* ||Contact Css End|| */

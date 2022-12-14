@@ -195,6 +195,10 @@ header a:hover {
 .approach-item {
     box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.15);
     display: inline-block;
+    transition: all 0.3s linear;
+}
+.approach-item:hover {
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.35);
 }
 .approach-item img {
     width: 445px;
@@ -425,6 +429,13 @@ form .submit {
 #contact ul li {
     display: block;
 }
+#contact li {
+    transition: all.3s linear;
+    cursor: pointer;
+}
+#contact li:hover {
+    color: var(--focus-color);
+}
 .contact-right {
     text-align: right;
 }
@@ -450,7 +461,18 @@ form .submit {
     font-size: 19px;
     line-height: 30px;
 }
-.contact-right .icon .fa-instagram {
-    margin: 0 10px;
+.contact-right .icon {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding-bottom: 4px;
+}
+.contact-right .icon a {
+    color: var(--secondary-color);
+    transition: all 0.3s linear;
+}
+.contact-right .icon a:hover {
+    color: var(--focus-color);
 }
 /* ||Contact Css End|| */

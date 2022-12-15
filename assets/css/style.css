@@ -51,7 +51,7 @@ ul li {
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    width: 1600px;
+    max-width: 1600px;
     margin: auto;
     color: var(--primary-color);
 }
@@ -75,15 +75,15 @@ body {
 }
 
 .banner-container {
-    width: 1550px;
+    max-width: 1550px;
     margin: auto;
 }
 .heading-container {
-    width: 1236px;
+    max-width: 1236px;
     margin: auto;
 }
 .text-container {
-    width: 1136px;
+    max-width: 1136px;
     margin: auto;
 }
 
@@ -320,6 +320,9 @@ header a:hover {
 .machine-item p {
     font-size: 20px;
 }
+.phone-formet {
+    display: none;
+}
 /* ||Machine & Infra Css End|| */
 
 /* The Industry Css Start */
@@ -436,9 +439,6 @@ form .submit {
 #contact li:hover {
     color: var(--focus-color);
 }
-.contact-right {
-    text-align: right;
-}
 #contact .contact-left ul li {
     font-size: 35px;
     line-height: 50px;
@@ -457,6 +457,7 @@ form .submit {
     gap: 30px;
 }
 .contact-right {
+    text-align: right;
     font-weight: 500;
     font-size: 19px;
     line-height: 30px;

@@ -1,0 +1,371 @@
+@media (min-width: 1141px) and (max-width: 1600px) {
+    /* Common Css Responsive Start */
+    body {
+        padding: 0 20px;
+    }
+    .heading-container {
+        margin: 20;
+    }
+    .text-container {
+        margin: 0 50px;
+    }
+    /* ||Common Css Responsive End|| */
+
+    /* BAnner Responsive Css Start */
+    #banner h1 {
+        font-size: 90px;
+    }
+    /* ||BAnner Responsive Css End|| */
+
+    /* Customer Approach Responsive Css Start */
+    .approach-container {
+        margin-left: 0;
+        margin: 0 100px;
+    }
+    /* ||Customer Approach Responsive Css End|| */
+
+    /* The Industry Responsive Css Start */
+    .the-industry-content {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    /* ||The Industry Responsive Css End|| */
+
+    /* Get in touch  Responsive Css Start */
+    .right-sec {
+        margin-left: -50px;
+    }
+    .right-sec .text-sec {
+        width: 40%;
+    }
+    .right-sec .map-sec {
+        width: 60%;
+    }
+    .map-sec iframe {
+        max-height: 500px;
+    }
+    /* ||Get in touch  Responsive Css End|| */
+}
+@media (min-width: 750px) and (max-width: 1140.98px) {
+    /* Common Css Responsive Start */
+    body {
+    }
+    .heading-container {
+        margin: 15px;
+    }
+    .text-container {
+        margin: 0 30px;
+    }
+    .heading h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    /* ||Common Css Responsive End|| */
+
+    /* Header Responsive Css Start */
+    header {
+        padding: 20px;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* BAnner Responsive Css Start */
+    #banner {
+        height: 500px;
+    }
+    #banner h1 {
+        font-size: 65px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    /* ||BAnner Responsive Css End|| */
+
+    /* Working Team Responsive Css Start */
+    #work-team {
+        padding: 70px 0;
+    }
+    #work-team .work-doc {
+        justify-content: left;
+        padding-top: 15px;
+    }
+    .work-pars {
+        margin-top: 40px;
+    }
+    .work-pars .pars-item h4 {
+        font-size: 70px;
+    }
+    .work-pars .pars-item p {
+        font-size: 20px;
+    }
+    /* ||Working Team Responsive Css End|| */
+
+    /* Customer Approach Responsive Css Start */
+    .approach-container {
+        margin-left: 0;
+        margin: 0 100px;
+    }
+    /* ||Customer Approach Responsive Css End|| */
+
+    /* Industry We Serve Responsive Css Start */
+    #industry {
+        padding-top: 450px;
+        padding-bottom: 70px;
+    }
+    .industry-img {
+        display: none;
+    }
+    /* ||Industry We Serve Responsive Css End|| */
+
+    /* Machine & Infra Responsive Css Start */
+    #machine {
+        padding: 150px 0;
+    }
+    .Infra-img {
+        display: none;
+    }
+    /* ||Machine & Infra Responsive Css End|| */
+
+    /* The Industry Responsive Css Start */
+    .the-industry-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    /* ||The Industry Responsive Css End|| */
+
+    /* Get in touch  Responsive Css Start */
+    #g-t-touch {
+        grid-template-columns: 1fr;
+    }
+    .left-sec {
+        padding-left: 0;
+        padding: 70px 0;
+        text-align: center;
+    }
+    .left-sec h2::before {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    form input,
+    form textarea {
+        margin: auto;
+    }
+    .right-sec {
+        margin-left: 0px;
+    }
+    .map-sec iframe {
+        height: 650px;
+    }
+    /* ||Get in touch  Responsive Css End|| */
+
+    /* Contact Responsive Css Start */
+    #contact {
+        padding: 70px 30px;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    .contact-right {
+        text-align: left;
+    }
+    .contact-right .icon {
+        justify-content: start;
+    }
+    /* ||Contact Responsive Css End|| */
+}
+@media (max-width: 749.98px) {
+    /* Common Css Responsive Start */
+    .heading-container {
+        margin: 10px;
+    }
+    .text-container {
+        margin: 0 30px;
+    }
+    .heading h6 {
+        font-size: 14px;
+    }
+    .heading h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    /* ||Common Css Responsive End|| */
+
+    /* Header Responsive Css Start */
+    header {
+        padding: 20px;
+    }
+    header .fa-bars {
+        display: none;
+    }
+    /* ||Header Responsive Css End|| */
+
+    /* BAnner Responsive Css Start */
+    #banner {
+        height: 300px;
+    }
+    #banner h1 {
+        text-align: center;
+        font-size: 35px;
+        padding-left: 0;
+        padding-top: 100px;
+    }
+    /* ||BAnner Responsive Css End|| */
+
+    /* Working Team Responsive Css Start */
+    #work-team {
+        padding: 70px 0;
+    }
+    #work-team .work-doc {
+        justify-content: left;
+        padding-top: 15px;
+    }
+    .work-pars {
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+    .work-pars .center {
+        border-left: 0;
+        border-right: 0;
+        padding: 15px 0;
+    }
+    .work-pars .pars-item h4 {
+        font-size: 70px;
+    }
+    .work-pars .pars-item p {
+        font-size: 20px;
+    }
+    /* ||Working Team Responsive Css End|| */
+
+    /* Customer Approach Responsive Css Start */
+    #approach {
+        height: 700px;
+    }
+    .approach-container {
+        margin-left: 0;
+        margin: 0 10px;
+    }
+    /* ||Customer Approach Responsive Css End|| */
+
+    /* Industry We Serve Responsive Css Start */
+    #industry {
+        padding-top: 450px;
+        padding-bottom: 70px;
+    }
+    .industry-img {
+        display: none;
+    }
+    #industry .solid-text h2 {
+        font-size: 35px;
+    }
+    .solid-text::after {
+        font-size: 35px;
+        margin-top: -25px;
+    }
+    .solid-text::before {
+        font-size: 35px;
+        margin-top: -53px;
+    }
+    .industry-title {
+        font-size: 15px;
+        padding: 30px 0;
+    }
+    .industry-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    /* ||Industry We Serve Responsive Css End|| */
+
+    /* Machine & Infra Responsive Css Start */
+    #machine {
+        padding: 80px 0;
+    }
+    .Infra-img {
+        display: none;
+    }
+    #machine h2 {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+    .pc-formet {
+        display: none;
+    }
+    .phone-formet {
+        display: grid;
+    }
+    .machine-item-container {
+        display: none;
+    }
+    /* ||Machine & Infra Responsive Css End|| */
+
+    /* The Industry Responsive Css Start */
+    #the-industry {
+        padding: 70px 0;
+    }
+    #the-industry h2 {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .the-industry-content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0 20px;
+    }
+    /* ||The Industry Responsive Css End|| */
+
+    /* Get in touch  Responsive Css Start */
+    #g-t-touch {
+        grid-template-columns: 1fr;
+    }
+    .left-sec {
+        padding-left: 0;
+        padding: 70px 0;
+        text-align: center;
+    }
+    .left-sec h2::before {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    form input,
+    form textarea {
+        width: 90%;
+        margin: auto;
+    }
+    .right-sec {
+        margin-left: 0px;
+    }
+    .right-sec .text-sec {
+        width: 100%;
+        padding: 20px;
+    }
+    .right-sec .map-sec {
+        display: none;
+    }
+    /* ||Get in touch  Responsive Css End|| */
+
+    /* Contact Responsive Css Start */
+    #contact {
+        padding: 70px 30px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    #contact .contact-left ul li {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .contact-center h4 {
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+    .contact-center li {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .contact-right {
+        text-align: left;
+    }
+    .contact-right .icon {
+        justify-content: start;
+    }
+    /* ||Contact Responsive Css End|| */
+}
